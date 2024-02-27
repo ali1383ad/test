@@ -142,10 +142,11 @@ i{
     padding-left: 19px;
     margin-left: 5px;
 }
-.slider {
+.slider  {
     width: 100vw;
     height: 500px;
     overflow: hidden;
+    position: relative;
 }
 .slider .swiper-wrapper {
     position: relative;
@@ -161,3 +162,16 @@ i{
     display: block;
     position: relative;
 }
+ .swiper-button{
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+}
+.swiper-button-next{
+right: 20%;
+top: 70%;
+}
+.swiper-button-prev{
+    right: 22%;
+    top: 70%;   
+ }
