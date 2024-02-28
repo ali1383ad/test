@@ -175,3 +175,13 @@ top: 70%;
     right: 22%;
     top: 70%;   
  }
+ .img{
+    width: 60px;
+    height: 60px;
+    
+ }
+.digi-carts-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
