@@ -197,3 +197,48 @@ top: 70%;
   .carousel-inner img {
     margin-right: 10px;
   }
+  .container1{
+    display: flex;
+    flex-direction: row;
+    background-color: #e6123d;
+    margin: 0px 300px 10px 300px;
+    border-radius: 15px;
+    padding: 20px 20px 10px 20px;
+  }
+  .pishnehad1{
+    text-align: center;
+    flex: 13%;
+    height: 245px;
+    background-color: white;
+    border-radius: 8px 0px 0px 8px;
+  }
+  .pishnehadimage{
+    height: 150px;
+    width: 150px;
+    margin-top: 12px;
+  }
+  .gheimat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 15px 0px 15px;
+  }
+  .price{
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .takhfif{
+    background-color: #EF394E;
+    font-size: 12px;
+    color: white;
+    padding: 3px 12px 0px 12px;
+    border-radius: 20px;
+  }
+  .qeimat{
+    color: #c8c9cc;
+    font-size: 12px;
+    text-decoration: line-through;
+    text-align: left;
+    padding: 10px 0px 0px 30px;
+  }
