@@ -10,15 +10,18 @@
 }
 body{
     background: #f5f5f5;
+   
 }
 a{
     text-decoration: none;
 }
 li{
     list-style: none;
+    
 }
 header{
     background: white;
+    
 }
 header .header{
     min-width: 1009px;
@@ -28,6 +31,7 @@ header .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 header .header .headerRight .logo {
@@ -37,6 +41,7 @@ header .header .headerRight .logo {
     width: 120px;
     height: 30px;
     margin-left: 10px;
+    
 
 }
 header  .header .headerRight{
@@ -204,6 +209,8 @@ top: 70%;
     margin: 0px 300px 10px 300px;
     border-radius: 15px;
     padding: 20px 20px 10px 20px;
+    overflow: auto;
+    
   }
   .pishnehad1{
     text-align: center;
@@ -242,3 +249,34 @@ top: 70%;
     text-align: left;
     padding: 10px 0px 0px 30px;
   }
+  .pishnehad{
+    text-align: center;
+    flex: 13%;
+    height: 245px;
+    background-color: white;
+    border-left: 2px solid #EF394E;
+  }
+  .pishnehad2{
+    text-align: center;
+    border-radius: 2px solid #EF394E;
+    flex: 13%;
+    height: 245px;
+    background-color: white;
+    border-radius: 0px 8px 8px 0px;
+  }
+  .pishnehadlogo{
+    flex: 13%;
+    text-align: center;
+    margin: auto 0;
+  }
+.pishnehadlogo img {
+    width: 80px;
+    height: 100px;
+}
+.pishnehadlogo{
+    flex: 13%;
+    text-align: center;
+}
+.img-offer {
+    width: 62%;
+}
