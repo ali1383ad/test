@@ -280,3 +280,35 @@ top: 70%;
 .img-offer {
     width: 62%;
 }
+.container2{
+    display: flex;
+    flex-direction: row;
+    /* margin: 15px 300px 30px 300px; */
+    margin-right: 190px;
+}
+.baner{
+    border-radius: 15px;
+    height: 235px;
+    width: 314px;
+    margin-left: 20px;
+}
+ .daste{
+    font-size: 21px;
+    text-align: center;
+    padding: 15px 0px 40px 0px;
+ }
+ .container3{
+    display: flex;
+    flex-direction: row;
+   /* margin: 0px 350px 30px 350px;*/
+   margin-right: 40px;
+ }
+ .daste2{
+    font-size: 12px;
+    text-align: center;
+    margin-right: 90px;
+ }
+ .dasteax{
+    height: 170px;
+    width: 170px;
+ }
